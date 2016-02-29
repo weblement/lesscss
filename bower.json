@@ -1,0 +1,27 @@
+{
+    "name": "lesscss",
+    "version": "1.0.0",
+    "homepage": "https://github.com/weblement/lesscss",
+    "authors": [
+        "Yuv Joodhisty <Locustv2@gmail.com>"
+    ],
+    "description": "CSS helper classes to make beautiful websites while writing less css",
+    "main": "css/lesscss.min.css",
+    "keywords": [
+        "less",
+        "css",
+        "weblement",
+        "class",
+        "style"
+    ],
+    "license": "BSD-3-Clause",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "./lib/.bower_components",
+        "test",
+        "tests",
+        "less",
+    ],
+}
