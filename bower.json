@@ -12,7 +12,8 @@
         "css",
         "weblement",
         "class",
-        "style"
+        "style",
+        "web"
     ],
     "license": "BSD-3-Clause",
     "ignore": [
