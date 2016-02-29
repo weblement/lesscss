@@ -1,0 +1,95 @@
+.hidden {
+    display: none !important; 
+}
+
+.vhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+
+.invisible {
+    visibility: hidden; 
+}
+
+.clear {
+    &:before, &:after {
+        content: " ";
+        display: table; 
+    }
+
+    &:after {
+        clear: both; 
+    }
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hoverlay {
+    &:hover {
+        background: #daeaf2;
+        border-top: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-color: #67a9cc;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.graphy {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.wf {
+    width: 100%;
+    height: auto !important;
+}
+.wi {
+    width: inherit;
+    max-width: inherit;
+    min-width: inherit;
+}
+.hi {
+    height: inherit;
+    max-height: inherit;
+    min-height: inherit;
+}
+
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.top {
+    top: 0;
+}
+.bottom {
+    bottom: 0;
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+
+.ts:before {
+    content: '·';
+    margin: 7px;
+}
