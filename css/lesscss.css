@@ -76,6 +76,15 @@ p {
 }
 a {
   font-weight: 500;
+  color: #10608a;
+  cursor: pointer;
+}
+a:focus,
+a:active,
+a:visited,
+a:hover {
+  color: #10608a;
+  text-decoration: none;
 }
 blockquote {
   font-weight: 300;
@@ -201,19 +210,6 @@ body.lesscss .quote:after {
 }
 body.lesscss .no-line-height {
   line-height: inherit;
-}
-body.lesscss a {
-  color: #10608a;
-  cursor: pointer;
-}
-body.lesscss a:hover {
-  color: #10608a;
-  text-decoration: none;
-}
-body.lesscss a:focus,
-body.lesscss a:active,
-body.lesscss a:visited {
-  text-decoration: none;
 }
 body.lesscss .m-2 {
   margin: 2px;
