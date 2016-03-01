@@ -323,10 +323,8 @@ body.lesscss .pn {
 }
 body.lesscss .ib {
   position: relative;
-  z-index: 0;
 }
 body.lesscss .ib:before {
-  z-index: -1;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: inherit;
   content: '';
@@ -335,6 +333,7 @@ body.lesscss .ib:before {
   right: 0;
   bottom: 0;
   left: 0;
+  display: block;
 }
 body.lesscss .ib.b0001:before,
 body.lesscss .ib.b0010:before,
@@ -409,6 +408,9 @@ body.lesscss .ib.bw-4:before {
 body.lesscss .ib.bw-5:before {
   border-width: 5px;
 }
+body.lesscss .ib:after {
+  content: '';
+}
 body.lesscss .ib.bs:before {
   box-shadow: 1px 1px 5px #bfbfbf;
 }
@@ -418,9 +420,6 @@ body.lesscss .ib.bsz:before {
 body.lesscss .ib.bs-light {
   box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
   border-color: #cccccc;
-}
-body.lesscss .ib:after {
-  z-index: 1;
 }
 body.lesscss .img {
   position: relative;
