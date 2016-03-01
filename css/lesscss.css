@@ -419,6 +419,10 @@ body.lesscss .ib.bs:before {
 body.lesscss .ib.bsz:before {
   box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
 }
+body.lesscss .ib.bs-light {
+  box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
+  border-color: #cccccc;
+}
 body.lesscss .ib:after {
   z-index: 1;
 }
