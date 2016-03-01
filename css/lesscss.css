@@ -491,7 +491,10 @@ body.lesscss .img.user:before {
   background: transparent url(../images/default-user.jpg) no-repeat center;
 }
 body.lesscss .img.default:before {
-  background: transparent url(../images/default.jpg) no-repeat center;
+  background: transparent url(../images/default.png) no-repeat center;
+}
+body.lesscss .img.default-wide:before {
+  background: transparent url(../images/default-wide.png) no-repeat center;
 }
 body.lesscss .img > img {
   width: inherit;
