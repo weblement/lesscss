@@ -196,6 +196,9 @@ body.lesscss .quote:before {
 body.lesscss .quote:after {
   content: '“';
 }
+body.lesscss .no-line-height {
+  line-height: 0px;
+}
 body.lesscss a {
   color: #10608a;
   cursor: pointer;
