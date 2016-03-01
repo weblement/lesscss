@@ -132,6 +132,14 @@ body.lesscss .f6 {
   font-size: 16px;
   line-height: 24px;
 }
+body.lesscss .f7 {
+  font-size: 18px;
+  line-height: 24px;
+}
+body.lesscss .f8 {
+  font-size: 20px;
+  line-height: 26px;
+}
 body.lesscss .txt-al {
   text-align: left;
 }
