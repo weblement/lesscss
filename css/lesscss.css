@@ -495,6 +495,9 @@ body.lesscss .img.default:before {
 }
 body.lesscss .img.default-wide:before {
   background-image: url(../images/default-wide.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 body.lesscss .img > img {
   width: inherit;
