@@ -75,7 +75,6 @@ p {
   margin-bottom: 16px;
 }
 a {
-  color: #ff4081;
   font-weight: 500;
 }
 blockquote {
@@ -190,12 +189,12 @@ body.lesscss .quote:after {
   content: '“';
 }
 body.lesscss a {
-  color: #4079FF;
+  color: #10608a;
   cursor: pointer;
 }
 body.lesscss a:hover {
-  color: #4079FF;
-  text-decoration: underline;
+  color: #10608a;
+  text-decoration: none;
 }
 body.lesscss a:focus,
 body.lesscss a:active,
