@@ -177,6 +177,9 @@ body.lesscss .font-medium {
   font-weight: 500;
 }
 body.lesscss .font-bold {
+  font-weight: 600;
+}
+body.lesscss .font-strong {
   font-weight: 700;
 }
 body.lesscss .font-black {
@@ -197,7 +200,7 @@ body.lesscss .quote:after {
   content: '“';
 }
 body.lesscss .no-line-height {
-  line-height: 0px;
+  line-height: inherit;
 }
 body.lesscss a {
   color: #10608a;
