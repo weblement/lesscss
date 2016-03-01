@@ -72,8 +72,12 @@
     }
 
     &.user:before {
-        background-image: url(../images/default-user.jpg);
+        background: transparent url(../images/default-user.jpg) no-repeat center;
     }
+    &.default:before {
+        background: transparent url(../images/default.jpg) no-repeat center;
+    }
+
 
     > img {
         width: inherit;

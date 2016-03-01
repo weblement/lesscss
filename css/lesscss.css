@@ -488,7 +488,10 @@ body.lesscss .img.box > img.portrait {
   height: auto;
 }
 body.lesscss .img.user:before {
-  background-image: url(../images/default-user.jpg);
+  background: transparent url(../images/default-user.jpg) no-repeat center;
+}
+body.lesscss .img.default:before {
+  background: transparent url(../images/default.jpg) no-repeat center;
 }
 body.lesscss .img > img {
   width: inherit;
