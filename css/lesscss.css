@@ -408,10 +408,6 @@ body.lesscss .ib.bw-4:before {
 body.lesscss .ib.bw-5:before {
   border-width: 5px;
 }
-body.lesscss .ib:after {
-  content: '';
-  display: block;
-}
 body.lesscss .ib.bs:before {
   box-shadow: 1px 1px 5px #bfbfbf;
 }
@@ -420,6 +416,9 @@ body.lesscss .ib.bsz:before {
 }
 body.lesscss .ib.bs-light:before {
   box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
+}
+body.lesscss .ib > * {
+  position: relative;
 }
 body.lesscss .img {
   position: relative;
