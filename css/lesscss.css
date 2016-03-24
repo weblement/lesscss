@@ -623,7 +623,7 @@ body.lesscss .left {
 body.lesscss .right {
   right: 0;
 }
-body.lesscss .ts:before {
-  content: '·';
+body.lesscss .ts > *:not(:first-child):before {
+  content: '\2022';
   margin: 7px;
 }

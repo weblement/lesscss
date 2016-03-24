@@ -89,7 +89,7 @@
     right: 0;
 }
 
-.ts:before {
-    content: '·';
+.ts > *:not(:first-child):before {
+    content: '\2022';
     margin: 7px;
 }
