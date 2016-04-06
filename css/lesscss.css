@@ -16,77 +16,18 @@ body {
   line-height: 22px;
 }
 h1,
-.h1,
 h2,
-.h2,
 h3,
-.h3,
 h4,
-.h4,
 h5,
-.h5,
 h6,
-.h6,
 p {
   margin: 0;
   padding: 0;
-}
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  font-weight: 600;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  line-height: 1.35em;
-  letter-spacing: -0.02em;
-}
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small {
-  font-weight: 400;
-  line-height: 1.35em;
-  opacity: 0.54;
-  font-size: 0.6em;
-  letter-spacing: 0em;
-}
-h1,
-.h1 {
-  font-size: 4em;
-}
-h2,
-.h2 {
-  font-size: 3.5em;
-}
-h3,
-.h3 {
-  font-size: 3.0em;
-}
-h4,
-.h4 {
-  font-size: 2.5em;
-}
-h5,
-.h5 {
-  font-size: 2.0em;
-}
-h6,
-.h6 {
-  font-size: 1.5em;
+  font-size: inherit;
 }
 p {
-  font-size: 14px;
+  font-size: inherit;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0;
@@ -126,6 +67,34 @@ address {
 }
 img {
   vertical-align: middle;
+}
+body.lesscss .h1,
+body.lesscss .h2,
+body.lesscss .h3,
+body.lesscss .h4,
+body.lesscss .h5,
+body.lesscss .h6 {
+  font-weight: 600;
+  line-height: 1.35em;
+  letter-spacing: -0.02em;
+}
+body.lesscss .h1 {
+  font-size: 4em;
+}
+body.lesscss .h2 {
+  font-size: 3.5em;
+}
+body.lesscss .h3 {
+  font-size: 3.0em;
+}
+body.lesscss .h4 {
+  font-size: 2.5em;
+}
+body.lesscss .h5 {
+  font-size: 2.0em;
+}
+body.lesscss .h6 {
+  font-size: 1.5em;
 }
 body.lesscss .f1,
 body.lesscss .f2,
