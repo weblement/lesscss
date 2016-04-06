@@ -6,14 +6,15 @@
         "Yuv Joodhisty <Locustv2@gmail.com>"
     ],
     "description": "CSS helper classes to make beautiful websites while writing less css",
-    "main": "css/lesscss.min.css",
+    "main": "css/lesscss.css",
     "keywords": [
         "less",
         "css",
         "weblement",
         "class",
         "style",
-        "web"
+        "web",
+        ""
     ],
     "license": "BSD-3-Clause",
     "ignore": [
