@@ -311,6 +311,7 @@ body.lesscss .pn {
 }
 body.lesscss .ib {
   position: relative;
+  border: 0;
 }
 body.lesscss .ib:before {
   border: 1px solid rgba(0, 0, 0, 0.1);
