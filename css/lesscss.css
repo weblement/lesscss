@@ -373,15 +373,19 @@ body.lesscss .ib.bc-light:before {
 body.lesscss .ib.bc-dark:before {
   border-color: #1a3c4d;
 }
+body.lesscss .ib.br-2,
 body.lesscss .ib.br-2:before {
   border-radius: 2px;
 }
+body.lesscss .ib.br-3,
 body.lesscss .ib.br-3:before {
   border-radius: 3px;
 }
+body.lesscss .ib.br-4,
 body.lesscss .ib.br-4:before {
   border-radius: 4px;
 }
+body.lesscss .ib.br-5,
 body.lesscss .ib.br-5:before {
   border-radius: 5px;
 }
