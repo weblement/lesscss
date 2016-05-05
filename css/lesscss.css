@@ -42,7 +42,6 @@ a:focus,
 a:active,
 a:visited,
 a:hover {
-  color: #10608a;
   text-decoration: none;
 }
 blockquote {
