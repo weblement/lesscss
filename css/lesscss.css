@@ -435,6 +435,9 @@ body.lesscss .img:after {
   left: 0;
   display: block;
 }
+body.lesscss .img.nb:after {
+  border: 0;
+}
 body.lesscss .img:before {
   content: '';
   position: absolute;
