@@ -2,7 +2,7 @@
     position: relative;
     border: 0;
 
-    &:after {
+    &:before {
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: inherit;
         content: '';
@@ -14,89 +14,83 @@
         display: block;
     }
 
-    &.b0000, &.b0, &.b00 {
-        &:after {
-            border: 0;
-        }
-    }
-
     &.b0001, &.b0010, &.b0011, &.b0100, &.b0101, &.b0110, &.b0111, &.b01 {
-        &:after {
+        &:before {
             border-top: 0;
         }
     }
 
     &.b0001, &.b0010, &.b0011, &.b1000, &.b1001, &.b1010, &.b1011, &.b10 {
-        &:after {
+        &:before {
             border-right: 0;
         }
     }
 
     &.b0001, &.b0100, &.b0101, &.b1000, &.b1001, &.b1100, &.b1101, &.b01 {
-        &:after {
+        &:before {
             border-bottom: 0;
         }
     }
 
     &.b0010, &.b0100, &.b0110, &.b1000, &.b1010, &.b1100, &.b1110, &.b10 {
-        &:after {
+        &:before {
             border-left: 0;
         }
     }
 
-    &.b3d:after {
+    &.b3d:before {
         border-color: #e5e6e9 #dfe0e4 #d0d1d5;
     }
 
-    &.bc-light:after {
+    &.bc-light:before {
         border-color: #e1e2e3;
     }
 
-    &.bc-dark:after {
+    &.bc-dark:before {
         border-color: #1a3c4d;
     }
 
-    &.br-2, &.br-2:after {
+    &.br-2, &.br-2:before {
         border-radius: 2px;
     }
 
-    &.br-3, &.br-3:after {
+    &.br-3, &.br-3:before {
         border-radius: 3px;
     }
 
-    &.br-4, &.br-4:after {
+    &.br-4, &.br-4:before {
         border-radius: 4px;
     }
 
-    &.br-5, &.br-5:after {
+    &.br-5, &.br-5:before {
         border-radius: 5px;
     }
 
-    &.bw-2:after {
+    &.bw-2:before {
         border-width: 2px;
     }
 
-    &.bw-3:after {
+    &.bw-3:before {
         border-width: 3px;
     }
 
-    &.bw-4:after {
+    &.bw-4:before {
         border-width: 4px;
     }
 
-    &.bw-5:after {
+    &.bw-5:before {
         border-width: 5px;
     }
 
-    &.bs:after {
+    &.bs:before {
         box-shadow: 1px 1px 5px #bfbfbf;
     }
 
-    &.bsz:after {
+    &.bsz:before {
         box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
     }
 
-    &.bs-light:after {
+    &.bs-light:before {
         box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
     }
 

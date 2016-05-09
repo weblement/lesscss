@@ -312,7 +312,7 @@ body.lesscss .ib {
   position: relative;
   border: 0;
 }
-body.lesscss .ib:after {
+body.lesscss .ib:before {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: inherit;
   content: '';
@@ -323,95 +323,90 @@ body.lesscss .ib:after {
   left: 0;
   display: block;
 }
-body.lesscss .ib.b0000:after,
-body.lesscss .ib.b0:after,
-body.lesscss .ib.b00:after {
-  border: 0;
-}
-body.lesscss .ib.b0001:after,
-body.lesscss .ib.b0010:after,
-body.lesscss .ib.b0011:after,
-body.lesscss .ib.b0100:after,
-body.lesscss .ib.b0101:after,
-body.lesscss .ib.b0110:after,
-body.lesscss .ib.b0111:after,
-body.lesscss .ib.b01:after {
+body.lesscss .ib.b0001:before,
+body.lesscss .ib.b0010:before,
+body.lesscss .ib.b0011:before,
+body.lesscss .ib.b0100:before,
+body.lesscss .ib.b0101:before,
+body.lesscss .ib.b0110:before,
+body.lesscss .ib.b0111:before,
+body.lesscss .ib.b01:before {
   border-top: 0;
 }
-body.lesscss .ib.b0001:after,
-body.lesscss .ib.b0010:after,
-body.lesscss .ib.b0011:after,
-body.lesscss .ib.b1000:after,
-body.lesscss .ib.b1001:after,
-body.lesscss .ib.b1010:after,
-body.lesscss .ib.b1011:after,
-body.lesscss .ib.b10:after {
+body.lesscss .ib.b0001:before,
+body.lesscss .ib.b0010:before,
+body.lesscss .ib.b0011:before,
+body.lesscss .ib.b1000:before,
+body.lesscss .ib.b1001:before,
+body.lesscss .ib.b1010:before,
+body.lesscss .ib.b1011:before,
+body.lesscss .ib.b10:before {
   border-right: 0;
 }
-body.lesscss .ib.b0001:after,
-body.lesscss .ib.b0100:after,
-body.lesscss .ib.b0101:after,
-body.lesscss .ib.b1000:after,
-body.lesscss .ib.b1001:after,
-body.lesscss .ib.b1100:after,
-body.lesscss .ib.b1101:after,
-body.lesscss .ib.b01:after {
+body.lesscss .ib.b0001:before,
+body.lesscss .ib.b0100:before,
+body.lesscss .ib.b0101:before,
+body.lesscss .ib.b1000:before,
+body.lesscss .ib.b1001:before,
+body.lesscss .ib.b1100:before,
+body.lesscss .ib.b1101:before,
+body.lesscss .ib.b01:before {
   border-bottom: 0;
 }
-body.lesscss .ib.b0010:after,
-body.lesscss .ib.b0100:after,
-body.lesscss .ib.b0110:after,
-body.lesscss .ib.b1000:after,
-body.lesscss .ib.b1010:after,
-body.lesscss .ib.b1100:after,
-body.lesscss .ib.b1110:after,
-body.lesscss .ib.b10:after {
+body.lesscss .ib.b0010:before,
+body.lesscss .ib.b0100:before,
+body.lesscss .ib.b0110:before,
+body.lesscss .ib.b1000:before,
+body.lesscss .ib.b1010:before,
+body.lesscss .ib.b1100:before,
+body.lesscss .ib.b1110:before,
+body.lesscss .ib.b10:before {
   border-left: 0;
 }
-body.lesscss .ib.b3d:after {
+body.lesscss .ib.b3d:before {
   border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
-body.lesscss .ib.bc-light:after {
+body.lesscss .ib.bc-light:before {
   border-color: #e1e2e3;
 }
-body.lesscss .ib.bc-dark:after {
+body.lesscss .ib.bc-dark:before {
   border-color: #1a3c4d;
 }
 body.lesscss .ib.br-2,
-body.lesscss .ib.br-2:after {
+body.lesscss .ib.br-2:before {
   border-radius: 2px;
 }
 body.lesscss .ib.br-3,
-body.lesscss .ib.br-3:after {
+body.lesscss .ib.br-3:before {
   border-radius: 3px;
 }
 body.lesscss .ib.br-4,
-body.lesscss .ib.br-4:after {
+body.lesscss .ib.br-4:before {
   border-radius: 4px;
 }
 body.lesscss .ib.br-5,
-body.lesscss .ib.br-5:after {
+body.lesscss .ib.br-5:before {
   border-radius: 5px;
 }
-body.lesscss .ib.bw-2:after {
+body.lesscss .ib.bw-2:before {
   border-width: 2px;
 }
-body.lesscss .ib.bw-3:after {
+body.lesscss .ib.bw-3:before {
   border-width: 3px;
 }
-body.lesscss .ib.bw-4:after {
+body.lesscss .ib.bw-4:before {
   border-width: 4px;
 }
-body.lesscss .ib.bw-5:after {
+body.lesscss .ib.bw-5:before {
   border-width: 5px;
 }
-body.lesscss .ib.bs:after {
+body.lesscss .ib.bs:before {
   box-shadow: 1px 1px 5px #bfbfbf;
 }
-body.lesscss .ib.bsz:after {
+body.lesscss .ib.bsz:before {
   box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
 }
-body.lesscss .ib.bs-light:after {
+body.lesscss .ib.bs-light:before {
   box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
 }
 body.lesscss .ib > * {
