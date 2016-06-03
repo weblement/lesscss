@@ -312,7 +312,7 @@ body.lesscss .ib {
   position: relative;
   border: 0;
 }
-body.lesscss .ib:before {
+body.lesscss .ib:after {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: inherit;
   content: '';
@@ -322,102 +322,120 @@ body.lesscss .ib:before {
   bottom: 0;
   left: 0;
   display: block;
+  pointer-events: none;
 }
-body.lesscss .ib.b0001:before,
-body.lesscss .ib.b0010:before,
-body.lesscss .ib.b0011:before,
-body.lesscss .ib.b0100:before,
-body.lesscss .ib.b0101:before,
-body.lesscss .ib.b0110:before,
-body.lesscss .ib.b0111:before,
-body.lesscss .ib.b01:before {
+body.lesscss .ib.b0:after {
+  border: 0;
+}
+body.lesscss .ib.b0001:after,
+body.lesscss .ib.b0010:after,
+body.lesscss .ib.b0011:after,
+body.lesscss .ib.b0100:after,
+body.lesscss .ib.b0101:after,
+body.lesscss .ib.b0110:after,
+body.lesscss .ib.b0111:after,
+body.lesscss .ib.b01:after {
   border-top: 0;
 }
-body.lesscss .ib.b0001:before,
-body.lesscss .ib.b0010:before,
-body.lesscss .ib.b0011:before,
-body.lesscss .ib.b1000:before,
-body.lesscss .ib.b1001:before,
-body.lesscss .ib.b1010:before,
-body.lesscss .ib.b1011:before,
-body.lesscss .ib.b10:before {
+body.lesscss .ib.b0001:after,
+body.lesscss .ib.b0010:after,
+body.lesscss .ib.b0011:after,
+body.lesscss .ib.b1000:after,
+body.lesscss .ib.b1001:after,
+body.lesscss .ib.b1010:after,
+body.lesscss .ib.b1011:after,
+body.lesscss .ib.b10:after {
   border-right: 0;
 }
-body.lesscss .ib.b0001:before,
-body.lesscss .ib.b0100:before,
-body.lesscss .ib.b0101:before,
-body.lesscss .ib.b1000:before,
-body.lesscss .ib.b1001:before,
-body.lesscss .ib.b1100:before,
-body.lesscss .ib.b1101:before,
-body.lesscss .ib.b01:before {
+body.lesscss .ib.b0001:after,
+body.lesscss .ib.b0100:after,
+body.lesscss .ib.b0101:after,
+body.lesscss .ib.b1000:after,
+body.lesscss .ib.b1001:after,
+body.lesscss .ib.b1100:after,
+body.lesscss .ib.b1101:after,
+body.lesscss .ib.b01:after {
   border-bottom: 0;
 }
-body.lesscss .ib.b0010:before,
-body.lesscss .ib.b0100:before,
-body.lesscss .ib.b0110:before,
-body.lesscss .ib.b1000:before,
-body.lesscss .ib.b1010:before,
-body.lesscss .ib.b1100:before,
-body.lesscss .ib.b1110:before,
-body.lesscss .ib.b10:before {
+body.lesscss .ib.b0010:after,
+body.lesscss .ib.b0100:after,
+body.lesscss .ib.b0110:after,
+body.lesscss .ib.b1000:after,
+body.lesscss .ib.b1010:after,
+body.lesscss .ib.b1100:after,
+body.lesscss .ib.b1110:after,
+body.lesscss .ib.b10:after {
   border-left: 0;
 }
-body.lesscss .ib.b3d:before {
+body.lesscss .ib.b3d:after {
   border-color: #e5e6e9 #dfe0e4 #d0d1d5;
 }
-body.lesscss .ib.bc-light:before {
+body.lesscss .ib.bc-light:after {
   border-color: #e1e2e3;
 }
-body.lesscss .ib.bc-dark:before {
+body.lesscss .ib.bc-dark:after {
   border-color: #1a3c4d;
 }
-body.lesscss .ib.br-2,
-body.lesscss .ib.br-2:before {
+body.lesscss .ib.ba2:after {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.lesscss .ib.ba3:after {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.lesscss .ib.ba4:after {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+body.lesscss .ib.ba5:after {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+body.lesscss .ib.br-2 {
   border-radius: 2px;
+  overflow: hidden;
 }
-body.lesscss .ib.br-3,
-body.lesscss .ib.br-3:before {
+body.lesscss .ib.br-3 {
   border-radius: 3px;
+  overflow: hidden;
 }
-body.lesscss .ib.br-4,
-body.lesscss .ib.br-4:before {
+body.lesscss .ib.br-4 {
   border-radius: 4px;
+  overflow: hidden;
 }
-body.lesscss .ib.br-5,
-body.lesscss .ib.br-5:before {
+body.lesscss .ib.br-5 {
   border-radius: 5px;
+  overflow: hidden;
 }
-body.lesscss .ib.bw-2:before {
+body.lesscss .ib.bround {
+  border-radius: 50%;
+  overflow: hidden;
+}
+body.lesscss .ib.bw-2:after {
   border-width: 2px;
 }
-body.lesscss .ib.bw-3:before {
+body.lesscss .ib.bw-3:after {
   border-width: 3px;
 }
-body.lesscss .ib.bw-4:before {
+body.lesscss .ib.bw-4:after {
   border-width: 4px;
 }
-body.lesscss .ib.bw-5:before {
+body.lesscss .ib.bw-5:after {
   border-width: 5px;
 }
-body.lesscss .ib.bs:before {
+body.lesscss .ib.bs:after {
   box-shadow: 1px 1px 5px #bfbfbf;
 }
-body.lesscss .ib.bsz:before {
+body.lesscss .ib.bsz:after {
   box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
 }
-body.lesscss .ib.bs-light:before {
+body.lesscss .ib.bs-light:after {
   box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
 }
-body.lesscss .ib > * {
-  position: relative;
-}
 body.lesscss .img {
-  position: relative;
   display: block;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  position: relative;
+  border: 0;
 }
 body.lesscss .img:after {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -429,9 +447,112 @@ body.lesscss .img:after {
   bottom: 0;
   left: 0;
   display: block;
+  pointer-events: none;
 }
-body.lesscss .img.nb:after {
+body.lesscss .img.b0:after {
   border: 0;
+}
+body.lesscss .img.b0001:after,
+body.lesscss .img.b0010:after,
+body.lesscss .img.b0011:after,
+body.lesscss .img.b0100:after,
+body.lesscss .img.b0101:after,
+body.lesscss .img.b0110:after,
+body.lesscss .img.b0111:after,
+body.lesscss .img.b01:after {
+  border-top: 0;
+}
+body.lesscss .img.b0001:after,
+body.lesscss .img.b0010:after,
+body.lesscss .img.b0011:after,
+body.lesscss .img.b1000:after,
+body.lesscss .img.b1001:after,
+body.lesscss .img.b1010:after,
+body.lesscss .img.b1011:after,
+body.lesscss .img.b10:after {
+  border-right: 0;
+}
+body.lesscss .img.b0001:after,
+body.lesscss .img.b0100:after,
+body.lesscss .img.b0101:after,
+body.lesscss .img.b1000:after,
+body.lesscss .img.b1001:after,
+body.lesscss .img.b1100:after,
+body.lesscss .img.b1101:after,
+body.lesscss .img.b01:after {
+  border-bottom: 0;
+}
+body.lesscss .img.b0010:after,
+body.lesscss .img.b0100:after,
+body.lesscss .img.b0110:after,
+body.lesscss .img.b1000:after,
+body.lesscss .img.b1010:after,
+body.lesscss .img.b1100:after,
+body.lesscss .img.b1110:after,
+body.lesscss .img.b10:after {
+  border-left: 0;
+}
+body.lesscss .img.b3d:after {
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+body.lesscss .img.bc-light:after {
+  border-color: #e1e2e3;
+}
+body.lesscss .img.bc-dark:after {
+  border-color: #1a3c4d;
+}
+body.lesscss .img.ba2:after {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+body.lesscss .img.ba3:after {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+body.lesscss .img.ba4:after {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+body.lesscss .img.ba5:after {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+body.lesscss .img.br-2 {
+  border-radius: 2px;
+  overflow: hidden;
+}
+body.lesscss .img.br-3 {
+  border-radius: 3px;
+  overflow: hidden;
+}
+body.lesscss .img.br-4 {
+  border-radius: 4px;
+  overflow: hidden;
+}
+body.lesscss .img.br-5 {
+  border-radius: 5px;
+  overflow: hidden;
+}
+body.lesscss .img.bround {
+  border-radius: 50%;
+  overflow: hidden;
+}
+body.lesscss .img.bw-2:after {
+  border-width: 2px;
+}
+body.lesscss .img.bw-3:after {
+  border-width: 3px;
+}
+body.lesscss .img.bw-4:after {
+  border-width: 4px;
+}
+body.lesscss .img.bw-5:after {
+  border-width: 5px;
+}
+body.lesscss .img.bs:after {
+  box-shadow: 1px 1px 5px #bfbfbf;
+}
+body.lesscss .img.bsz:after {
+  box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
+}
+body.lesscss .img.bs-light:after {
+  box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
 }
 body.lesscss .img:before {
   content: '';
@@ -466,13 +587,11 @@ body.lesscss .img.box.xwide > img.landscape {
 }
 body.lesscss .img.box > img {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 body.lesscss .img.box > img.landscape {
   width: auto;
@@ -526,20 +645,21 @@ body.lesscss .img > img.grayscale {
   filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
 }
 body.lesscss .img > .caption {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  color: white;
+}
+body.lesscss .img > .caption > * {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 0px 5px;
-  color: white;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), black);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), black);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), black);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), black);
-  /* Standard syntax */
 }
 body.lesscss .hidden {
   display: none !important;
@@ -585,6 +705,17 @@ body.lesscss .hoverlay:hover {
 body.lesscss .graphy {
   background: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+}
+body.lesscss .bshd {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  color: white;
 }
 body.lesscss .wf {
   width: 100%;

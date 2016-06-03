@@ -2,7 +2,7 @@
     position: relative;
     border: 0;
 
-    &:before {
+    &:after {
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: inherit;
         content: '';
@@ -12,89 +12,115 @@
         bottom: 0;
         left: 0;
         display: block;
+        pointer-events: none;
+    }
+
+    &.b0:after {
+        border: 0;
     }
 
     &.b0001, &.b0010, &.b0011, &.b0100, &.b0101, &.b0110, &.b0111, &.b01 {
-        &:before {
+        &:after {
             border-top: 0;
         }
     }
 
     &.b0001, &.b0010, &.b0011, &.b1000, &.b1001, &.b1010, &.b1011, &.b10 {
-        &:before {
+        &:after {
             border-right: 0;
         }
     }
 
     &.b0001, &.b0100, &.b0101, &.b1000, &.b1001, &.b1100, &.b1101, &.b01 {
-        &:before {
+        &:after {
             border-bottom: 0;
         }
     }
 
     &.b0010, &.b0100, &.b0110, &.b1000, &.b1010, &.b1100, &.b1110, &.b10 {
-        &:before {
+        &:after {
             border-left: 0;
         }
     }
 
-    &.b3d:before {
+    &.b3d:after {
         border-color: #e5e6e9 #dfe0e4 #d0d1d5;
     }
 
-    &.bc-light:before {
+    &.bc-light:after {
         border-color: #e1e2e3;
     }
 
-    &.bc-dark:before {
+    &.bc-dark:after {
         border-color: #1a3c4d;
     }
 
-    &.br-2, &.br-2:before {
+    &.ba2:after {
+        border-color: rgba(0, 0, 0, 0.2);
+    }
+
+    &.ba3:after {
+        border-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &.ba4:after {
+        border-color: rgba(0, 0, 0, 0.4);
+    }
+
+    &.ba5:after {
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+
+    &.br-2 {
         border-radius: 2px;
+        overflow: hidden;
     }
 
-    &.br-3, &.br-3:before {
+    &.br-3 {
         border-radius: 3px;
+        overflow: hidden;
     }
 
-    &.br-4, &.br-4:before {
+    &.br-4 {
         border-radius: 4px;
+        overflow: hidden;
     }
 
-    &.br-5, &.br-5:before {
+    &.br-5 {
         border-radius: 5px;
+        overflow: hidden;
     }
 
-    &.bw-2:before {
+    &.bround {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    &.bw-2:after {
         border-width: 2px;
     }
 
-    &.bw-3:before {
+    &.bw-3:after {
         border-width: 3px;
     }
 
-    &.bw-4:before {
+    &.bw-4:after {
         border-width: 4px;
     }
 
-    &.bw-5:before {
+    &.bw-5:after {
         border-width: 5px;
     }
 
-    &.bs:before {
+    &.bs:after {
         box-shadow: 1px 1px 5px #bfbfbf;
     }
 
-    &.bsz:before {
+    &.bsz:after {
         box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
     }
 
-    &.bs-light:before {
+    &.bs-light:after {
         box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.52);
-    }
-
-    > * {
-        position: relative;
     }
 }

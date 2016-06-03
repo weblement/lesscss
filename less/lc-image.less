@@ -1,3 +1,6 @@
+@import "lc-border.less";
+@import "lc-helpers.less";
+
 .img {
     position: relative;
     display: block;
@@ -5,23 +8,7 @@
     width: 100%;
     height: 100%;
 
-    &:after {
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: inherit;
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        display: block;
-    }
-
-    &.nb {
-        &:after {
-            border: 0;
-        }
-    }
+    .ib();
 
     &:before {
         content: '';
@@ -60,13 +47,11 @@
 
         > img {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -webkit-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            -o-transform: translate(-50%, -50%);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
 
             &.landscape {
                 width: auto;
@@ -132,19 +117,13 @@
     }
 
     > .caption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 0px 5px;
-        color: white;
-        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), black);
-        /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(rgba(0, 0, 0, 0.5), black);
-        /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), black);
-        /* For Firefox 3.6 to 15 */
-        background: linear-gradient(rgba(0, 0, 0, 0.5), black);
-        /* Standard syntax */
+        .bshd();
+
+        > * {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
     }
 }
