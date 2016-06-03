@@ -577,10 +577,10 @@ body.lesscss .img.box.xwide > img.landscape {
 }
 body.lesscss .img.box > img {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: -100%;
+  right: -100%;
+  bottom: -100%;
+  left: -100%;
   margin: auto;
 }
 body.lesscss .img.box > img.landscape {
