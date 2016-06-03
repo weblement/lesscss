@@ -390,23 +390,18 @@ body.lesscss .ib.ba5:after {
 }
 body.lesscss .ib.br-2 {
   border-radius: 2px;
-  overflow: hidden;
 }
 body.lesscss .ib.br-3 {
   border-radius: 3px;
-  overflow: hidden;
 }
 body.lesscss .ib.br-4 {
   border-radius: 4px;
-  overflow: hidden;
 }
 body.lesscss .ib.br-5 {
   border-radius: 5px;
-  overflow: hidden;
 }
 body.lesscss .ib.bround {
   border-radius: 50%;
-  overflow: hidden;
 }
 body.lesscss .ib.bw-2:after {
   border-width: 2px;
@@ -515,23 +510,18 @@ body.lesscss .img.ba5:after {
 }
 body.lesscss .img.br-2 {
   border-radius: 2px;
-  overflow: hidden;
 }
 body.lesscss .img.br-3 {
   border-radius: 3px;
-  overflow: hidden;
 }
 body.lesscss .img.br-4 {
   border-radius: 4px;
-  overflow: hidden;
 }
 body.lesscss .img.br-5 {
   border-radius: 5px;
-  overflow: hidden;
 }
 body.lesscss .img.bround {
   border-radius: 50%;
-  overflow: hidden;
 }
 body.lesscss .img.bw-2:after {
   border-width: 2px;
@@ -748,6 +738,9 @@ body.lesscss .left {
 }
 body.lesscss .right {
   right: 0;
+}
+body.lesscss .ofh {
+  overflow: hidden;
 }
 body.lesscss .ts > *:not(:first-child):before {
   content: '\2022';
