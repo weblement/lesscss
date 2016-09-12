@@ -1174,6 +1174,30 @@ body.lesscss .color-red-orange-red.dark {
 body.lesscss .color-red-orange-red.darker {
   background-color: #551800;
 }
+body.lesscss .color-grey.lighter {
+  background-color: #f8f8f8;
+}
+body.lesscss .color-grey.light {
+  background-color: #c4c4c4;
+}
+body.lesscss .color-grey.primary {
+  background-color: #999999;
+}
+body.lesscss .color-grey.dark {
+  background-color: #6c6c6c;
+}
+body.lesscss .color-grey.darker {
+  background-color: #323232;
+}
+body.lesscss .color-black {
+  background: #000000;
+}
+body.lesscss .color-white {
+  background: #ffffff;
+}
+body.lesscss .color-transparent {
+  background: transparent;
+}
 body.lesscss .hidden {
   display: none !important;
 }
