@@ -198,11 +198,32 @@ body.lesscss .quote:after {
 body.lesscss .no-line-height {
   line-height: inherit;
 }
+body.lesscss .m-1 {
+  margin: 1px;
+}
 body.lesscss .m-2 {
   margin: 2px;
 }
+body.lesscss .m-3 {
+  margin: 3px;
+}
+body.lesscss .m-4 {
+  margin: 4px;
+}
 body.lesscss .m-5 {
   margin: 5px;
+}
+body.lesscss .m-6 {
+  margin: 6px;
+}
+body.lesscss .m-7 {
+  margin: 7px;
+}
+body.lesscss .m-8 {
+  margin: 8px;
+}
+body.lesscss .m-9 {
+  margin: 9px;
 }
 body.lesscss .m-10 {
   margin: 10px;
@@ -210,23 +231,26 @@ body.lesscss .m-10 {
 body.lesscss .m-15 {
   margin: 15px;
 }
+body.lesscss .m-20 {
+  margin: 20px;
+}
+body.lesscss .m-25 {
+  margin: 25px;
+}
 body.lesscss .m-30 {
   margin: 30px;
 }
+body.lesscss .m-35 {
+  margin: 35px;
+}
+body.lesscss .m-40 {
+  margin: 40px;
+}
+body.lesscss .m-45 {
+  margin: 45px;
+}
 body.lesscss .m-50 {
   margin: 50px;
-}
-body.lesscss .m-10pc {
-  margin: 10%;
-}
-body.lesscss .m-20pc {
-  margin: 20%;
-}
-body.lesscss .m-n-20 {
-  margin: -20px;
-}
-body.lesscss .m-n-100pc {
-  margin: -100%;
 }
 body.lesscss .mt {
   margin-right: 0;
@@ -256,14 +280,79 @@ body.lesscss .my {
   margin-right: 0;
   margin-left: 0;
 }
+body.lesscss .m0,
 body.lesscss .mn {
   margin: 0;
+}
+body.lesscss .ma {
+  margin: auto;
+}
+body.lesscss .m0001,
+body.lesscss .m0010,
+body.lesscss .m0011,
+body.lesscss .m0100,
+body.lesscss .m0101,
+body.lesscss .m0110,
+body.lesscss .m0111,
+body.lesscss .m01 {
+  margin-top: 0;
+}
+body.lesscss .m0001,
+body.lesscss .m0010,
+body.lesscss .m0011,
+body.lesscss .m1000,
+body.lesscss .m1001,
+body.lesscss .m1010,
+body.lesscss .m1011,
+body.lesscss .m10 {
+  margin-right: 0;
+}
+body.lesscss .m0001,
+body.lesscss .m0100,
+body.lesscss .m0101,
+body.lesscss .m1000,
+body.lesscss .m1001,
+body.lesscss .m1100,
+body.lesscss .m1101,
+body.lesscss .m01 {
+  margin-bottom: 0;
+}
+body.lesscss .m0010,
+body.lesscss .m0100,
+body.lesscss .m0110,
+body.lesscss .m1000,
+body.lesscss .m1010,
+body.lesscss .m1100,
+body.lesscss .m1110,
+body.lesscss .m10 {
+  margin-left: 0;
+}
+body.lesscss .p-1 {
+  padding: 1px;
 }
 body.lesscss .p-2 {
   padding: 2px;
 }
+body.lesscss .p-3 {
+  padding: 3px;
+}
+body.lesscss .p-4 {
+  padding: 4px;
+}
 body.lesscss .p-5 {
   padding: 5px;
+}
+body.lesscss .p-6 {
+  padding: 6px;
+}
+body.lesscss .p-7 {
+  padding: 7px;
+}
+body.lesscss .p-8 {
+  padding: 8px;
+}
+body.lesscss .p-9 {
+  padding: 9px;
 }
 body.lesscss .p-10 {
   padding: 10px;
@@ -271,8 +360,23 @@ body.lesscss .p-10 {
 body.lesscss .p-15 {
   padding: 15px;
 }
+body.lesscss .p-20 {
+  padding: 20px;
+}
+body.lesscss .p-25 {
+  padding: 25px;
+}
 body.lesscss .p-30 {
   padding: 30px;
+}
+body.lesscss .p-35 {
+  padding: 35px;
+}
+body.lesscss .p-40 {
+  padding: 40px;
+}
+body.lesscss .p-45 {
+  padding: 45px;
 }
 body.lesscss .p-50 {
   padding: 50px;
@@ -305,8 +409,49 @@ body.lesscss .py {
   padding-right: 0;
   padding-left: 0;
 }
+body.lesscss .p0,
 body.lesscss .pn {
   padding: 0;
+}
+body.lesscss .p0001,
+body.lesscss .p0010,
+body.lesscss .p0011,
+body.lesscss .p0100,
+body.lesscss .p0101,
+body.lesscss .p0110,
+body.lesscss .p0111,
+body.lesscss .p01 {
+  padding-top: 0;
+}
+body.lesscss .p0001,
+body.lesscss .p0010,
+body.lesscss .p0011,
+body.lesscss .p1000,
+body.lesscss .p1001,
+body.lesscss .p1010,
+body.lesscss .p1011,
+body.lesscss .p10 {
+  padding-right: 0;
+}
+body.lesscss .p0001,
+body.lesscss .p0100,
+body.lesscss .p0101,
+body.lesscss .p1000,
+body.lesscss .p1001,
+body.lesscss .p1100,
+body.lesscss .p1101,
+body.lesscss .p01 {
+  padding-bottom: 0;
+}
+body.lesscss .p0010,
+body.lesscss .p0100,
+body.lesscss .p0110,
+body.lesscss .p1000,
+body.lesscss .p1010,
+body.lesscss .p1100,
+body.lesscss .p1110,
+body.lesscss .p10 {
+  padding-left: 0;
 }
 body.lesscss .ib {
   position: relative;
@@ -388,6 +533,12 @@ body.lesscss .ib.ba4:after {
 body.lesscss .ib.ba5:after {
   border-color: rgba(0, 0, 0, 0.5);
 }
+body.lesscss .ib.br-0 {
+  border-radius: 0px;
+}
+body.lesscss .ib.br-1 {
+  border-radius: 1px;
+}
 body.lesscss .ib.br-2 {
   border-radius: 2px;
 }
@@ -416,7 +567,10 @@ body.lesscss .ib.bw-5:after {
   border-width: 5px;
 }
 body.lesscss .ib.bs:after {
-  box-shadow: 1px 1px 5px #bfbfbf;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+body.lesscss .ib .bs-box {
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.1);
 }
 body.lesscss .ib.bsz:after {
   box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
@@ -508,6 +662,12 @@ body.lesscss .img.ba4:after {
 body.lesscss .img.ba5:after {
   border-color: rgba(0, 0, 0, 0.5);
 }
+body.lesscss .img.br-0 {
+  border-radius: 0px;
+}
+body.lesscss .img.br-1 {
+  border-radius: 1px;
+}
 body.lesscss .img.br-2 {
   border-radius: 2px;
 }
@@ -536,7 +696,10 @@ body.lesscss .img.bw-5:after {
   border-width: 5px;
 }
 body.lesscss .img.bs:after {
-  box-shadow: 1px 1px 5px #bfbfbf;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+}
+body.lesscss .img .bs-box {
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.1);
 }
 body.lesscss .img.bsz:after {
   box-shadow: 0 8px 6px -8px rgba(0, 0, 0, 0.3);
@@ -650,6 +813,366 @@ body.lesscss .img > .caption > * {
   bottom: 0;
   left: 0;
   right: 0;
+}
+body.lesscss .color-red.lighter {
+  background-color: #ffaaaa;
+}
+body.lesscss .color-red.light {
+  background-color: #d46a6a;
+}
+body.lesscss .color-red.primary {
+  background-color: #aa3939;
+}
+body.lesscss .color-red.dark {
+  background-color: #801515;
+}
+body.lesscss .color-red.darker {
+  background-color: #550000;
+}
+body.lesscss .color-red-violet-red.lighter {
+  background-color: #e498af;
+}
+body.lesscss .color-red-violet-red.light {
+  background-color: #be5f7c;
+}
+body.lesscss .color-red-violet-red.primary {
+  background-color: #983351;
+}
+body.lesscss .color-red-violet-red.dark {
+  background-color: #721330;
+}
+body.lesscss .color-red-violet-red.darker {
+  background-color: #4c0017;
+}
+body.lesscss .color-red-violet.lighter {
+  background-color: #cd88af;
+}
+body.lesscss .color-red-violet.light {
+  background-color: #aa5585;
+}
+body.lesscss .color-red-violet.primary {
+  background-color: #882d61;
+}
+body.lesscss .color-red-violet.dark {
+  background-color: #661141;
+}
+body.lesscss .color-red-violet.darker {
+  background-color: #440027;
+}
+body.lesscss .color-violet-red-violet.lighter {
+  background-color: #a66fa6;
+}
+body.lesscss .color-violet-red-violet.light {
+  background-color: #8a458a;
+}
+body.lesscss .color-violet-red-violet.primary {
+  background-color: #6e256e;
+}
+body.lesscss .color-violet-red-violet.dark {
+  background-color: #530e53;
+}
+body.lesscss .color-violet-red-violet.darker {
+  background-color: #370037;
+}
+body.lesscss .color-violet.lighter {
+  background-color: #9775aa;
+}
+body.lesscss .color-violet.light {
+  background-color: #764b8e;
+}
+body.lesscss .color-violet.primary {
+  background-color: #582a72;
+}
+body.lesscss .color-violet.dark {
+  background-color: #3d1255;
+}
+body.lesscss .color-violet.darker {
+  background-color: #260339;
+}
+body.lesscss .color-violet-blue-violet.lighter {
+  background-color: #8f78ad;
+}
+body.lesscss .color-violet-blue-violet.light {
+  background-color: #6b4e90;
+}
+body.lesscss .color-violet-blue-violet.primary {
+  background-color: #4b2d73;
+}
+body.lesscss .color-violet-blue-violet.dark {
+  background-color: #311557;
+}
+body.lesscss .color-violet-blue-violet.darker {
+  background-color: #1c053a;
+}
+body.lesscss .color-violet-blue.lighter {
+  background-color: #887caf;
+}
+body.lesscss .color-violet-blue.light {
+  background-color: #615192;
+}
+body.lesscss .color-violet-blue.primary {
+  background-color: #403075;
+}
+body.lesscss .color-violet-blue.dark {
+  background-color: #261758;
+}
+body.lesscss .color-violet-blue.darker {
+  background-color: #13073a;
+}
+body.lesscss .color-blue-violet-blue.lighter {
+  background-color: #8080b3;
+}
+body.lesscss .color-blue-violet-blue.light {
+  background-color: #565695;
+}
+body.lesscss .color-blue-violet-blue.primary {
+  background-color: #343477;
+}
+body.lesscss .color-blue-violet-blue.dark {
+  background-color: #1a1a59;
+}
+body.lesscss .color-blue-violet-blue.darker {
+  background-color: #09093b;
+}
+body.lesscss .color-blue.lighter {
+  background-color: #7887ab;
+}
+body.lesscss .color-blue.light {
+  background-color: #4f628e;
+}
+body.lesscss .color-blue.primary {
+  background-color: #2e4272;
+}
+body.lesscss .color-blue.dark {
+  background-color: #162955;
+}
+body.lesscss .color-blue.darker {
+  background-color: #061539;
+}
+body.lesscss .color-blue-green-blue.lighter {
+  background-color: #718ea4;
+}
+body.lesscss .color-blue-green-blue.light {
+  background-color: #496d89;
+}
+body.lesscss .color-blue-green-blue.primary {
+  background-color: #29506d;
+}
+body.lesscss .color-blue-green-blue.dark {
+  background-color: #123652;
+}
+body.lesscss .color-blue-green-blue.darker {
+  background-color: #042037;
+}
+body.lesscss .color-blue-green.lighter {
+  background-color: #669999;
+}
+body.lesscss .color-blue-green.light {
+  background-color: #407f7f;
+}
+body.lesscss .color-blue-green.primary {
+  background-color: #226666;
+}
+body.lesscss .color-blue-green.dark {
+  background-color: #0d4d4d;
+}
+body.lesscss .color-blue-green.darker {
+  background-color: #003333;
+}
+body.lesscss .color-green-blue-green.lighter {
+  background-color: #75af96;
+}
+body.lesscss .color-green-blue-green.light {
+  background-color: #499272;
+}
+body.lesscss .color-green-blue-green.primary {
+  background-color: #277553;
+}
+body.lesscss .color-green-blue-green.dark {
+  background-color: #0f5738;
+}
+body.lesscss .color-green-blue-green.darker {
+  background-color: #003a21;
+}
+body.lesscss .color-green.lighter {
+  background-color: #88cc88;
+}
+body.lesscss .color-green.light {
+  background-color: #55aa55;
+}
+body.lesscss .color-green.primary {
+  background-color: #2d882d;
+}
+body.lesscss .color-green.dark {
+  background-color: #116611;
+}
+body.lesscss .color-green.darker {
+  background-color: #004400;
+}
+body.lesscss .color-green-yellow-green.lighter {
+  background-color: #bae397;
+}
+body.lesscss .color-green-yellow-green.light {
+  background-color: #89bd5f;
+}
+body.lesscss .color-green-yellow-green.primary {
+  background-color: #609732;
+}
+body.lesscss .color-green-yellow-green.dark {
+  background-color: #3e7213;
+}
+body.lesscss .color-green-yellow-green.darker {
+  background-color: #224c00;
+}
+body.lesscss .color-yellow-green.lighter {
+  background-color: #d4ee9f;
+}
+body.lesscss .color-yellow-green.light {
+  background-color: #a5c663;
+}
+body.lesscss .color-yellow-green.primary {
+  background-color: #7b9f35;
+}
+body.lesscss .color-yellow-green.dark {
+  background-color: #567714;
+}
+body.lesscss .color-yellow-green.darker {
+  background-color: #354f00;
+}
+body.lesscss .color-yellow-green-yellow.lighter {
+  background-color: #e8f6a4;
+}
+body.lesscss .color-yellow-green-yellow.light {
+  background-color: #bccd67;
+}
+body.lesscss .color-yellow-green-yellow.primary {
+  background-color: #91a437;
+}
+body.lesscss .color-yellow-green-yellow.dark {
+  background-color: #6a7b15;
+}
+body.lesscss .color-yellow-green-yellow.darker {
+  background-color: #445200;
+}
+body.lesscss .color-yellow.lighter {
+  background-color: #ffffaa;
+}
+body.lesscss .color-yellow.light {
+  background-color: #d4d46a;
+}
+body.lesscss .color-yellow.primary {
+  background-color: #aaaa39;
+}
+body.lesscss .color-yellow.dark {
+  background-color: #808015;
+}
+body.lesscss .color-yellow.darker {
+  background-color: #555500;
+}
+body.lesscss .color-yellow-orange-yellow.lighter {
+  background-color: #fff7aa;
+}
+body.lesscss .color-yellow-orange-yellow.light {
+  background-color: #d4cb6a;
+}
+body.lesscss .color-yellow-orange-yellow.primary {
+  background-color: #aaa039;
+}
+body.lesscss .color-yellow-orange-yellow.dark {
+  background-color: #807615;
+}
+body.lesscss .color-yellow-orange-yellow.darker {
+  background-color: #554d00;
+}
+body.lesscss .color-yellow-orange.lighter {
+  background-color: #fff0aa;
+}
+body.lesscss .color-yellow-orange.light {
+  background-color: #d4c26a;
+}
+body.lesscss .color-yellow-orange.primary {
+  background-color: #aa9739;
+}
+body.lesscss .color-yellow-orange.dark {
+  background-color: #806d15;
+}
+body.lesscss .color-yellow-orange.darker {
+  background-color: #554600;
+}
+body.lesscss .color-orange-yellow-orange.lighter {
+  background-color: #ffeaaa;
+}
+body.lesscss .color-orange-yellow-orange.light {
+  background-color: #d4ba6a;
+}
+body.lesscss .color-orange-yellow-orange.primary {
+  background-color: #aa8e39;
+}
+body.lesscss .color-orange-yellow-orange.dark {
+  background-color: #806515;
+}
+body.lesscss .color-orange-yellow-orange.darker {
+  background-color: #554000;
+}
+body.lesscss .color-orange.lighter {
+  background-color: #ffe3aa;
+}
+body.lesscss .color-orange.light {
+  background-color: #d4b16a;
+}
+body.lesscss .color-orange.primary {
+  background-color: #aa8439;
+}
+body.lesscss .color-orange.dark {
+  background-color: #805c15;
+}
+body.lesscss .color-orange.darker {
+  background-color: #553900;
+}
+body.lesscss .color-orange-red-orange.lighter {
+  background-color: #ffdbaa;
+}
+body.lesscss .color-orange-red-orange.light {
+  background-color: #d4a76a;
+}
+body.lesscss .color-orange-red-orange.primary {
+  background-color: #aa7939;
+}
+body.lesscss .color-orange-red-orange.dark {
+  background-color: #805215;
+}
+body.lesscss .color-orange-red-orange.darker {
+  background-color: #553100;
+}
+body.lesscss .color-red-orange.lighter {
+  background-color: #ffd1aa;
+}
+body.lesscss .color-red-orange.light {
+  background-color: #d49a6a;
+}
+body.lesscss .color-red-orange.primary {
+  background-color: #aa6c39;
+}
+body.lesscss .color-red-orange.dark {
+  background-color: #804515;
+}
+body.lesscss .color-red-orange.darker {
+  background-color: #552600;
+}
+body.lesscss .color-red-orange-red.lighter {
+  background-color: #ffc2aa;
+}
+body.lesscss .color-red-orange-red.light {
+  background-color: #d4886a;
+}
+body.lesscss .color-red-orange-red.primary {
+  background-color: #aa5939;
+}
+body.lesscss .color-red-orange-red.dark {
+  background-color: #803415;
+}
+body.lesscss .color-red-orange-red.darker {
+  background-color: #551800;
 }
 body.lesscss .hidden {
   display: none !important;
