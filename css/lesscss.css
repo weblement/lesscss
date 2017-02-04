@@ -1199,58 +1199,31 @@ body.lesscss .color-transparent {
   background: transparent;
 }
 body.lesscss .color-op-1 {
-  background: rgba(0, 0, 0, 0.1);
+  opacity: 0.1;
 }
 body.lesscss .color-op-2 {
-  background: rgba(0, 0, 0, 0.2);
+  opacity: 0.2;
 }
 body.lesscss .color-op-3 {
-  background: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 body.lesscss .color-op-4 {
-  background: rgba(0, 0, 0, 0.4);
+  opacity: 0.4;
 }
 body.lesscss .color-op-5 {
-  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
 }
 body.lesscss .color-op-6 {
-  background: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
 }
 body.lesscss .color-op-7 {
-  background: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
 }
 body.lesscss .color-op-8 {
-  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
 }
 body.lesscss .color-op-9 {
-  background: rgba(0, 0, 0, 0.9);
-}
-body.lesscss .invert .color-op-1 {
-  background: rgba(255, 255, 255, 0.1);
-}
-body.lesscss .invert .color-op-2 {
-  background: rgba(255, 255, 255, 0.2);
-}
-body.lesscss .invert .color-op-3 {
-  background: rgba(255, 255, 255, 0.3);
-}
-body.lesscss .invert .color-op-4 {
-  background: rgba(255, 255, 255, 0.4);
-}
-body.lesscss .invert .color-op-5 {
-  background: rgba(255, 255, 255, 0.5);
-}
-body.lesscss .invert .color-op-6 {
-  background: rgba(255, 255, 255, 0.6);
-}
-body.lesscss .invert .color-op-7 {
-  background: rgba(255, 255, 255, 0.7);
-}
-body.lesscss .invert .color-op-8 {
-  background: rgba(255, 255, 255, 0.8);
-}
-body.lesscss .invert .color-op-9 {
-  background: rgba(255, 255, 255, 0.9);
+  opacity: 0.9;
 }
 body.lesscss .hidden {
   display: none !important;
