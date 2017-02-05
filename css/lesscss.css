@@ -469,6 +469,9 @@ body.lesscss .ib:after {
   display: block;
   pointer-events: none;
 }
+body.lesscss .ib.ib-invert:after {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
 body.lesscss .ib.b0:after {
   border: 0;
 }
@@ -597,6 +600,9 @@ body.lesscss .img:after {
   left: 0;
   display: block;
   pointer-events: none;
+}
+body.lesscss .img.ib-invert:after {
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 body.lesscss .img.b0:after {
   border: 0;
@@ -814,415 +820,427 @@ body.lesscss .img > .caption > * {
   left: 0;
   right: 0;
 }
-body.lesscss .color-red.lighter {
+body.lesscss .we-bg {
+  position: relative;
+}
+body.lesscss .we-bg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+body.lesscss .we-bg.color-red.lighter:before {
   background-color: #ffaaaa;
 }
-body.lesscss .color-red.light {
+body.lesscss .we-bg.color-red.light:before {
   background-color: #d46a6a;
 }
-body.lesscss .color-red.primary {
+body.lesscss .we-bg.color-red.primary:before {
   background-color: #aa3939;
 }
-body.lesscss .color-red.dark {
+body.lesscss .we-bg.color-red.dark:before {
   background-color: #801515;
 }
-body.lesscss .color-red.darker {
+body.lesscss .we-bg.color-red.darker:before {
   background-color: #550000;
 }
-body.lesscss .color-red-violet-red.lighter {
+body.lesscss .we-bg.color-red-violet-red.lighter:before {
   background-color: #e498af;
 }
-body.lesscss .color-red-violet-red.light {
+body.lesscss .we-bg.color-red-violet-red.light:before {
   background-color: #be5f7c;
 }
-body.lesscss .color-red-violet-red.primary {
+body.lesscss .we-bg.color-red-violet-red.primary:before {
   background-color: #983351;
 }
-body.lesscss .color-red-violet-red.dark {
+body.lesscss .we-bg.color-red-violet-red.dark:before {
   background-color: #721330;
 }
-body.lesscss .color-red-violet-red.darker {
+body.lesscss .we-bg.color-red-violet-red.darker:before {
   background-color: #4c0017;
 }
-body.lesscss .color-red-violet.lighter {
+body.lesscss .we-bg.color-red-violet.lighter:before {
   background-color: #cd88af;
 }
-body.lesscss .color-red-violet.light {
+body.lesscss .we-bg.color-red-violet.light:before {
   background-color: #aa5585;
 }
-body.lesscss .color-red-violet.primary {
+body.lesscss .we-bg.color-red-violet.primary:before {
   background-color: #882d61;
 }
-body.lesscss .color-red-violet.dark {
+body.lesscss .we-bg.color-red-violet.dark:before {
   background-color: #661141;
 }
-body.lesscss .color-red-violet.darker {
+body.lesscss .we-bg.color-red-violet.darker:before {
   background-color: #440027;
 }
-body.lesscss .color-violet-red-violet.lighter {
+body.lesscss .we-bg.color-violet-red-violet.lighter:before {
   background-color: #a66fa6;
 }
-body.lesscss .color-violet-red-violet.light {
+body.lesscss .we-bg.color-violet-red-violet.light:before {
   background-color: #8a458a;
 }
-body.lesscss .color-violet-red-violet.primary {
+body.lesscss .we-bg.color-violet-red-violet.primary:before {
   background-color: #6e256e;
 }
-body.lesscss .color-violet-red-violet.dark {
+body.lesscss .we-bg.color-violet-red-violet.dark:before {
   background-color: #530e53;
 }
-body.lesscss .color-violet-red-violet.darker {
+body.lesscss .we-bg.color-violet-red-violet.darker:before {
   background-color: #370037;
 }
-body.lesscss .color-violet.lighter {
+body.lesscss .we-bg.color-violet.lighter:before {
   background-color: #9775aa;
 }
-body.lesscss .color-violet.light {
+body.lesscss .we-bg.color-violet.light:before {
   background-color: #764b8e;
 }
-body.lesscss .color-violet.primary {
+body.lesscss .we-bg.color-violet.primary:before {
   background-color: #582a72;
 }
-body.lesscss .color-violet.dark {
+body.lesscss .we-bg.color-violet.dark:before {
   background-color: #3d1255;
 }
-body.lesscss .color-violet.darker {
+body.lesscss .we-bg.color-violet.darker:before {
   background-color: #260339;
 }
-body.lesscss .color-violet-blue-violet.lighter {
+body.lesscss .we-bg.color-violet-blue-violet.lighter:before {
   background-color: #8f78ad;
 }
-body.lesscss .color-violet-blue-violet.light {
+body.lesscss .we-bg.color-violet-blue-violet.light:before {
   background-color: #6b4e90;
 }
-body.lesscss .color-violet-blue-violet.primary {
+body.lesscss .we-bg.color-violet-blue-violet.primary:before {
   background-color: #4b2d73;
 }
-body.lesscss .color-violet-blue-violet.dark {
+body.lesscss .we-bg.color-violet-blue-violet.dark:before {
   background-color: #311557;
 }
-body.lesscss .color-violet-blue-violet.darker {
+body.lesscss .we-bg.color-violet-blue-violet.darker:before {
   background-color: #1c053a;
 }
-body.lesscss .color-violet-blue.lighter {
+body.lesscss .we-bg.color-violet-blue.lighter:before {
   background-color: #887caf;
 }
-body.lesscss .color-violet-blue.light {
+body.lesscss .we-bg.color-violet-blue.light:before {
   background-color: #615192;
 }
-body.lesscss .color-violet-blue.primary {
+body.lesscss .we-bg.color-violet-blue.primary:before {
   background-color: #403075;
 }
-body.lesscss .color-violet-blue.dark {
+body.lesscss .we-bg.color-violet-blue.dark:before {
   background-color: #261758;
 }
-body.lesscss .color-violet-blue.darker {
+body.lesscss .we-bg.color-violet-blue.darker:before {
   background-color: #13073a;
 }
-body.lesscss .color-blue-violet-blue.lighter {
+body.lesscss .we-bg.color-blue-violet-blue.lighter:before {
   background-color: #8080b3;
 }
-body.lesscss .color-blue-violet-blue.light {
+body.lesscss .we-bg.color-blue-violet-blue.light:before {
   background-color: #565695;
 }
-body.lesscss .color-blue-violet-blue.primary {
+body.lesscss .we-bg.color-blue-violet-blue.primary:before {
   background-color: #343477;
 }
-body.lesscss .color-blue-violet-blue.dark {
+body.lesscss .we-bg.color-blue-violet-blue.dark:before {
   background-color: #1a1a59;
 }
-body.lesscss .color-blue-violet-blue.darker {
+body.lesscss .we-bg.color-blue-violet-blue.darker:before {
   background-color: #09093b;
 }
-body.lesscss .color-blue.lighter {
+body.lesscss .we-bg.color-blue.lighter:before {
   background-color: #7887ab;
 }
-body.lesscss .color-blue.light {
+body.lesscss .we-bg.color-blue.light:before {
   background-color: #4f628e;
 }
-body.lesscss .color-blue.primary {
+body.lesscss .we-bg.color-blue.primary:before {
   background-color: #2e4272;
 }
-body.lesscss .color-blue.dark {
+body.lesscss .we-bg.color-blue.dark:before {
   background-color: #162955;
 }
-body.lesscss .color-blue.darker {
+body.lesscss .we-bg.color-blue.darker:before {
   background-color: #061539;
 }
-body.lesscss .color-blue-green-blue.lighter {
+body.lesscss .we-bg.color-blue-green-blue.lighter:before {
   background-color: #718ea4;
 }
-body.lesscss .color-blue-green-blue.light {
+body.lesscss .we-bg.color-blue-green-blue.light:before {
   background-color: #496d89;
 }
-body.lesscss .color-blue-green-blue.primary {
+body.lesscss .we-bg.color-blue-green-blue.primary:before {
   background-color: #29506d;
 }
-body.lesscss .color-blue-green-blue.dark {
+body.lesscss .we-bg.color-blue-green-blue.dark:before {
   background-color: #123652;
 }
-body.lesscss .color-blue-green-blue.darker {
+body.lesscss .we-bg.color-blue-green-blue.darker:before {
   background-color: #042037;
 }
-body.lesscss .color-blue-green.lighter {
+body.lesscss .we-bg.color-blue-green.lighter:before {
   background-color: #669999;
 }
-body.lesscss .color-blue-green.light {
+body.lesscss .we-bg.color-blue-green.light:before {
   background-color: #407f7f;
 }
-body.lesscss .color-blue-green.primary {
+body.lesscss .we-bg.color-blue-green.primary:before {
   background-color: #226666;
 }
-body.lesscss .color-blue-green.dark {
+body.lesscss .we-bg.color-blue-green.dark:before {
   background-color: #0d4d4d;
 }
-body.lesscss .color-blue-green.darker {
+body.lesscss .we-bg.color-blue-green.darker:before {
   background-color: #003333;
 }
-body.lesscss .color-green-blue-green.lighter {
+body.lesscss .we-bg.color-green-blue-green.lighter:before {
   background-color: #75af96;
 }
-body.lesscss .color-green-blue-green.light {
+body.lesscss .we-bg.color-green-blue-green.light:before {
   background-color: #499272;
 }
-body.lesscss .color-green-blue-green.primary {
+body.lesscss .we-bg.color-green-blue-green.primary:before {
   background-color: #277553;
 }
-body.lesscss .color-green-blue-green.dark {
+body.lesscss .we-bg.color-green-blue-green.dark:before {
   background-color: #0f5738;
 }
-body.lesscss .color-green-blue-green.darker {
+body.lesscss .we-bg.color-green-blue-green.darker:before {
   background-color: #003a21;
 }
-body.lesscss .color-green.lighter {
+body.lesscss .we-bg.color-green.lighter:before {
   background-color: #88cc88;
 }
-body.lesscss .color-green.light {
+body.lesscss .we-bg.color-green.light:before {
   background-color: #55aa55;
 }
-body.lesscss .color-green.primary {
+body.lesscss .we-bg.color-green.primary:before {
   background-color: #2d882d;
 }
-body.lesscss .color-green.dark {
+body.lesscss .we-bg.color-green.dark:before {
   background-color: #116611;
 }
-body.lesscss .color-green.darker {
+body.lesscss .we-bg.color-green.darker:before {
   background-color: #004400;
 }
-body.lesscss .color-green-yellow-green.lighter {
+body.lesscss .we-bg.color-green-yellow-green.lighter:before {
   background-color: #bae397;
 }
-body.lesscss .color-green-yellow-green.light {
+body.lesscss .we-bg.color-green-yellow-green.light:before {
   background-color: #89bd5f;
 }
-body.lesscss .color-green-yellow-green.primary {
+body.lesscss .we-bg.color-green-yellow-green.primary:before {
   background-color: #609732;
 }
-body.lesscss .color-green-yellow-green.dark {
+body.lesscss .we-bg.color-green-yellow-green.dark:before {
   background-color: #3e7213;
 }
-body.lesscss .color-green-yellow-green.darker {
+body.lesscss .we-bg.color-green-yellow-green.darker:before {
   background-color: #224c00;
 }
-body.lesscss .color-yellow-green.lighter {
+body.lesscss .we-bg.color-yellow-green.lighter:before {
   background-color: #d4ee9f;
 }
-body.lesscss .color-yellow-green.light {
+body.lesscss .we-bg.color-yellow-green.light:before {
   background-color: #a5c663;
 }
-body.lesscss .color-yellow-green.primary {
+body.lesscss .we-bg.color-yellow-green.primary:before {
   background-color: #7b9f35;
 }
-body.lesscss .color-yellow-green.dark {
+body.lesscss .we-bg.color-yellow-green.dark:before {
   background-color: #567714;
 }
-body.lesscss .color-yellow-green.darker {
+body.lesscss .we-bg.color-yellow-green.darker:before {
   background-color: #354f00;
 }
-body.lesscss .color-yellow-green-yellow.lighter {
+body.lesscss .we-bg.color-yellow-green-yellow.lighter:before {
   background-color: #e8f6a4;
 }
-body.lesscss .color-yellow-green-yellow.light {
+body.lesscss .we-bg.color-yellow-green-yellow.light:before {
   background-color: #bccd67;
 }
-body.lesscss .color-yellow-green-yellow.primary {
+body.lesscss .we-bg.color-yellow-green-yellow.primary:before {
   background-color: #91a437;
 }
-body.lesscss .color-yellow-green-yellow.dark {
+body.lesscss .we-bg.color-yellow-green-yellow.dark:before {
   background-color: #6a7b15;
 }
-body.lesscss .color-yellow-green-yellow.darker {
+body.lesscss .we-bg.color-yellow-green-yellow.darker:before {
   background-color: #445200;
 }
-body.lesscss .color-yellow.lighter {
+body.lesscss .we-bg.color-yellow.lighter:before {
   background-color: #ffffaa;
 }
-body.lesscss .color-yellow.light {
+body.lesscss .we-bg.color-yellow.light:before {
   background-color: #d4d46a;
 }
-body.lesscss .color-yellow.primary {
+body.lesscss .we-bg.color-yellow.primary:before {
   background-color: #aaaa39;
 }
-body.lesscss .color-yellow.dark {
+body.lesscss .we-bg.color-yellow.dark:before {
   background-color: #808015;
 }
-body.lesscss .color-yellow.darker {
+body.lesscss .we-bg.color-yellow.darker:before {
   background-color: #555500;
 }
-body.lesscss .color-yellow-orange-yellow.lighter {
+body.lesscss .we-bg.color-yellow-orange-yellow.lighter:before {
   background-color: #fff7aa;
 }
-body.lesscss .color-yellow-orange-yellow.light {
+body.lesscss .we-bg.color-yellow-orange-yellow.light:before {
   background-color: #d4cb6a;
 }
-body.lesscss .color-yellow-orange-yellow.primary {
+body.lesscss .we-bg.color-yellow-orange-yellow.primary:before {
   background-color: #aaa039;
 }
-body.lesscss .color-yellow-orange-yellow.dark {
+body.lesscss .we-bg.color-yellow-orange-yellow.dark:before {
   background-color: #807615;
 }
-body.lesscss .color-yellow-orange-yellow.darker {
+body.lesscss .we-bg.color-yellow-orange-yellow.darker:before {
   background-color: #554d00;
 }
-body.lesscss .color-yellow-orange.lighter {
+body.lesscss .we-bg.color-yellow-orange.lighter:before {
   background-color: #fff0aa;
 }
-body.lesscss .color-yellow-orange.light {
+body.lesscss .we-bg.color-yellow-orange.light:before {
   background-color: #d4c26a;
 }
-body.lesscss .color-yellow-orange.primary {
+body.lesscss .we-bg.color-yellow-orange.primary:before {
   background-color: #aa9739;
 }
-body.lesscss .color-yellow-orange.dark {
+body.lesscss .we-bg.color-yellow-orange.dark:before {
   background-color: #806d15;
 }
-body.lesscss .color-yellow-orange.darker {
+body.lesscss .we-bg.color-yellow-orange.darker:before {
   background-color: #554600;
 }
-body.lesscss .color-orange-yellow-orange.lighter {
+body.lesscss .we-bg.color-orange-yellow-orange.lighter:before {
   background-color: #ffeaaa;
 }
-body.lesscss .color-orange-yellow-orange.light {
+body.lesscss .we-bg.color-orange-yellow-orange.light:before {
   background-color: #d4ba6a;
 }
-body.lesscss .color-orange-yellow-orange.primary {
+body.lesscss .we-bg.color-orange-yellow-orange.primary:before {
   background-color: #aa8e39;
 }
-body.lesscss .color-orange-yellow-orange.dark {
+body.lesscss .we-bg.color-orange-yellow-orange.dark:before {
   background-color: #806515;
 }
-body.lesscss .color-orange-yellow-orange.darker {
+body.lesscss .we-bg.color-orange-yellow-orange.darker:before {
   background-color: #554000;
 }
-body.lesscss .color-orange.lighter {
+body.lesscss .we-bg.color-orange.lighter:before {
   background-color: #ffe3aa;
 }
-body.lesscss .color-orange.light {
+body.lesscss .we-bg.color-orange.light:before {
   background-color: #d4b16a;
 }
-body.lesscss .color-orange.primary {
+body.lesscss .we-bg.color-orange.primary:before {
   background-color: #aa8439;
 }
-body.lesscss .color-orange.dark {
+body.lesscss .we-bg.color-orange.dark:before {
   background-color: #805c15;
 }
-body.lesscss .color-orange.darker {
+body.lesscss .we-bg.color-orange.darker:before {
   background-color: #553900;
 }
-body.lesscss .color-orange-red-orange.lighter {
+body.lesscss .we-bg.color-orange-red-orange.lighter:before {
   background-color: #ffdbaa;
 }
-body.lesscss .color-orange-red-orange.light {
+body.lesscss .we-bg.color-orange-red-orange.light:before {
   background-color: #d4a76a;
 }
-body.lesscss .color-orange-red-orange.primary {
+body.lesscss .we-bg.color-orange-red-orange.primary:before {
   background-color: #aa7939;
 }
-body.lesscss .color-orange-red-orange.dark {
+body.lesscss .we-bg.color-orange-red-orange.dark:before {
   background-color: #805215;
 }
-body.lesscss .color-orange-red-orange.darker {
+body.lesscss .we-bg.color-orange-red-orange.darker:before {
   background-color: #553100;
 }
-body.lesscss .color-red-orange.lighter {
+body.lesscss .we-bg.color-red-orange.lighter:before {
   background-color: #ffd1aa;
 }
-body.lesscss .color-red-orange.light {
+body.lesscss .we-bg.color-red-orange.light:before {
   background-color: #d49a6a;
 }
-body.lesscss .color-red-orange.primary {
+body.lesscss .we-bg.color-red-orange.primary:before {
   background-color: #aa6c39;
 }
-body.lesscss .color-red-orange.dark {
+body.lesscss .we-bg.color-red-orange.dark:before {
   background-color: #804515;
 }
-body.lesscss .color-red-orange.darker {
+body.lesscss .we-bg.color-red-orange.darker:before {
   background-color: #552600;
 }
-body.lesscss .color-red-orange-red.lighter {
+body.lesscss .we-bg.color-red-orange-red.lighter:before {
   background-color: #ffc2aa;
 }
-body.lesscss .color-red-orange-red.light {
+body.lesscss .we-bg.color-red-orange-red.light:before {
   background-color: #d4886a;
 }
-body.lesscss .color-red-orange-red.primary {
+body.lesscss .we-bg.color-red-orange-red.primary:before {
   background-color: #aa5939;
 }
-body.lesscss .color-red-orange-red.dark {
+body.lesscss .we-bg.color-red-orange-red.dark:before {
   background-color: #803415;
 }
-body.lesscss .color-red-orange-red.darker {
+body.lesscss .we-bg.color-red-orange-red.darker:before {
   background-color: #551800;
 }
-body.lesscss .color-grey.lighter {
+body.lesscss .we-bg.color-grey.lighter:before {
   background-color: #f8f8f8;
 }
-body.lesscss .color-grey.light {
+body.lesscss .we-bg.color-grey.light:before {
   background-color: #c4c4c4;
 }
-body.lesscss .color-grey.primary {
+body.lesscss .we-bg.color-grey.primary:before {
   background-color: #999999;
 }
-body.lesscss .color-grey.dark {
+body.lesscss .we-bg.color-grey.dark:before {
   background-color: #6c6c6c;
 }
-body.lesscss .color-grey.darker {
+body.lesscss .we-bg.color-grey.darker:before {
   background-color: #323232;
 }
-body.lesscss .color-black {
+body.lesscss .we-bg.color-black:before {
   background: #000000;
 }
-body.lesscss .color-white {
+body.lesscss .we-bg.color-white:before {
   background: #ffffff;
 }
-body.lesscss .color-transparent {
+body.lesscss .we-bg.color-transparent:before {
   background: transparent;
 }
-body.lesscss .color-op-1 {
+body.lesscss .we-bg.color-op-1:before {
   opacity: 0.1;
 }
-body.lesscss .color-op-2 {
+body.lesscss .we-bg.color-op-2:before {
   opacity: 0.2;
 }
-body.lesscss .color-op-3 {
+body.lesscss .we-bg.color-op-3:before {
   opacity: 0.3;
 }
-body.lesscss .color-op-4 {
+body.lesscss .we-bg.color-op-4:before {
   opacity: 0.4;
 }
-body.lesscss .color-op-5 {
+body.lesscss .we-bg.color-op-5:before {
   opacity: 0.5;
 }
-body.lesscss .color-op-6 {
+body.lesscss .we-bg.color-op-6:before {
   opacity: 0.6;
 }
-body.lesscss .color-op-7 {
+body.lesscss .we-bg.color-op-7:before {
   opacity: 0.7;
 }
-body.lesscss .color-op-8 {
+body.lesscss .we-bg.color-op-8:before {
   opacity: 0.8;
 }
-body.lesscss .color-op-9 {
+body.lesscss .we-bg.color-op-9:before {
   opacity: 0.9;
 }
 body.lesscss .hidden {
