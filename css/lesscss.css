@@ -457,6 +457,9 @@ body.lesscss .ib {
   position: relative;
   border: 0;
 }
+body.lesscss .ib:before {
+  border-radius: inherit;
+}
 body.lesscss .ib:after {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: inherit;
@@ -588,6 +591,9 @@ body.lesscss .img {
   height: 100%;
   position: relative;
   border: 0;
+}
+body.lesscss .img:before {
+  border-radius: inherit;
 }
 body.lesscss .img:after {
   border: 1px solid rgba(0, 0, 0, 0.1);
