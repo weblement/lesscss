@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  position: relative;
+}
 html {
   width: 100%;
   height: 100%;
@@ -836,7 +839,6 @@ body.lesscss .we-bg:before {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
 }
 body.lesscss .we-bg.color-red.lighter:before {
   background-color: #ffaaaa;
